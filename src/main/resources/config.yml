@@ -1,3 +1,7 @@
+# An example
+# If bob has the permission "essentials.kits.esketit" then %permissioncounter_kits% would show "1" for bob since he has one of the
+# permissions in the group "kits" and %permissioncounter_max_kits% would show "2" for bob since there are 2 permissions listed in that group.
+
 counters:
   kits:
   - essentials.kits.esketit
