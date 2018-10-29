@@ -1,0 +1,7 @@
+counters:
+  kits:
+  - essentials.kits.esketit
+  - essentials.kits.guccigang
+  perks:
+  - essentials.workbench
+  - essentials.godmode

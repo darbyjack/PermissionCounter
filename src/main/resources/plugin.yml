@@ -1,0 +1,10 @@
+name: PermissionCounter
+version: ${project.version}
+main: me.glaremasters.permissioncounter.Permissioncounter
+softdepend: [PlaceholderAPI]
+authors: [blockslayer22]
+description: PermissionCounter
+
+commands:
+  pcreload:
+    description: Reload config
