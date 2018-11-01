@@ -33,6 +33,11 @@ public class Placeholders extends PlaceholderExpansion {
     }
 
     @Override
+    public boolean persist() {
+        return true;
+    }
+
+    @Override
     public String onPlaceholderRequest(Player player, String identifier) {
 
         if (identifier.startsWith("count_")) {
